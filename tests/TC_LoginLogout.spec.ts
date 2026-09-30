@@ -8,4 +8,5 @@ test('Login and Logout', async ({ page }) => {
     await obj.openapplication();
     await obj.login();
     await obj.logout();
+    console.log("Test cases is Completed")
 });
